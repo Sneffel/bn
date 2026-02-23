@@ -29,19 +29,25 @@ img:fullscreen {
     border: 1px solid transparent;
     border-radius: 0.375rem;
 }
+
 .alert-danger {
     color: #fff;
     background-color: hsl(354, 70%, 54%);
     border-color: hsl(354, 70%, 54%);
 }
-.alert-primary{
+
+.alert-primary {
     color: #000;
     background-color: hsl(48, 70%, 54%);
     border-color: hsl(48, 70%, 54%);
 }
 
-.alert svg{
+.alert svg {
     vertical-align: text-top;
     vertical-align: sub;
     margin-right: .25rem;
+}
+
+.container {
+    max-width: 700px;
 }
